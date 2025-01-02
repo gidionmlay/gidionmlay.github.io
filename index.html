@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5829e3bded.js" crossorigin="anonymous"></script>
+
+</head> 
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                Gidion Mlay
+                <ul id="sidemenu">
+                    <li><a href="#header"><strong>Home</strong></a></li>
+                    <li><a href="#about"><strong>About</strong></a></li>
+                    <li><a href="#services"><strong>Services</strong></a></li>
+                     <li><a href="#My work"><strong>Project</strong></a></li>
+                    <li><a href="#contact"><strong>Contact</strong></a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            
+            <div class="header-text">
+                <p>Front-End Developer</p>
+                <h1>Hi, I'm <span><b>GIDION</b></span><br>from Arusha,Tanzania</h1>
+            </div>
+        </div>
+    </div>
+    <!------------about------------>
+    <div id="about">
+          <div class="row">
+            <div class="about-col-1">
+                <img src="images/Gidion showcase.png">
+            </div>
+            <div class="about-col-2">
+        <h1 class="me">About me</h1>
+        <p>My name is Gidion Mlay, I'm  empowers individuals and businesses through technology. As a front-end developer and graphics designer, I'm crafts compelling digital solutions that are both functional and beautiful. Beyond my technical skills, I am sought-after technology mentor and trainer, using public speaking and one-on-one guidance to help others navigate the ever-evolving tech landscape.</p>
+
+        <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            
+           
+        </div>
+
+        <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>UI/UX</span><br>Designing web/App interfaces</li>
+                <li><span>Web Development</span><br>front-end developer</li>
+                <li><span>Technology Consultant</span><br>Training and Knowledge Transfer</li>
+            </ul>
+        </div>
+         
+    </div>
+    
+
+
+
+
+    <!--- ------------services---------- -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-pen-nib"></i>
+                <h2><b>UI/UX Design</b></h2>
+                <p>I'm driven by a desire to create exceptional digital products that exceed expectations. I'm committed to staying up-to-date with the latest design trends and technologies,ensuring that my skills remain sharp and relevant.</p>
+<a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2><b>Web Developement</b></h2>
+                <p>I'm passionate web developer with a knack for transforming ideas into interactive and engaging online experience. With a solid foundation in HTML,CSS and JavaScript, I specialize in creating user-centered website and applications that are both visually appealing and function robust.</p>
+
+        <a href="#">Learn more</a>
+</div>
+<div>
+    <i class="fa-brands fa-connectdevelop"></i>
+<h2><b>Graphics design </b></h2>
+        <p>I'm Ardor and creative graphics designer with a keen eye for detail and a love crafting visually stunning and impactful designs. Expert in industry-standard design software such as Adobe Creative suite(photoshop,illustrator,premire pro),Canva.</p> 
+        
+<a href="#">Learn more</a>
+</div>
+ </div>
+      </div>
+    </div>      
+    </div> 
+     <!--- ------------My Work---------- -->
+     <div id="My work">
+        <h1 class="ggg">My Work</h1>
+     </div>
+     
+      <div class="work-container">
+        
+        <div class="work-card">
+            <img class="work-image" src="images/sale project.png" alt="sales Media App">
+            <div class="work-details">
+                <h2 class="work-title"><b>Online shopping app</b></h2>
+                <p class="work-description">The app connects you to talented people around the world. and able to purchase things online.</p>
+                <a href="#" class="download-button">view <img src="images/download icon.png" alt="download icon"></a>
+            </div>
+        </div>
+              
+        <div class="work-card">
+            <img class="work-image" src="images/restaurant project.png" alt="restaurant website">
+            <div class="work-details">
+                <h2 class="work-title"><b>Restaurant website</b></h2>
+                <p class="work-description"> This is one of the showscase a restaurant site which i have well to develop it which increase brand identity to one of my client</p>
+                <a href="#" class="download-button">view <img src="images/download icon.png" alt="download icon"></a>
+            </div>
+        </div>
+
+        <div class="work-card">
+            <img class="work-image" src="images/bg project.png" alt="BG ADVENTURE SAFARIES ">
+            <div class="work-details">
+                <h2 class="work-title"><b>BG Adventure Safaries</b></h2>
+                <p class="work-description">They lead game drives, walking safaris, boat tours, and other activities, maximizing opportunities for wildlife sightings while ensuring minimal disturbance to the environment.   
+</p>
+                <a href="#" class="download-button">view <img src="images/download icon.png" alt="download icon"></a>
+            </div>
+        </div>
+
+    </div>
+
+<!-- ----------contact---------- -->
+ <div id="contact">
+    <div class="container">
+    <div class="row">
+        <div class="contact-left">
+         <h1 class="sub-title">Contact me</h1>
+         <p><i class="fa-solid fa-paper-plane"></i>gidionmlay5@gmail.com</p>
+         <p><i class="fa-solid fa-phone-volume"></i>+255 752 607 104</p>
+         <div class="div social-icons">
+           <a href="https://https://www.linkedin.com/in/gidion-mlay-6707b130a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BwlUwLi5GSyyOaW6U8U2n9A%3D%3D"><i class="fa-brands fa-linkedin"></i></a>
+           <a href="https://github.com/gidionmlay"><i class="fa-brands fa-github"></i></a>
+           <a href="https://www.instagram.com/_gidionmlay/#"><i class="fa-brands fa-instagram"></i></a>
+             
+         </div>
+         <a href="images/Gidion Resume.pdf" class="download-button">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form>
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="Massage" row="6" placeholder="Your massage"></textarea>
+                <button type="submit" class="download-button">summit</button>
+            </form>
+
+        </div>
+    </div>
+    </div>
+ </div>   
+
+ <!-- ----------footer---------- -->
+ <footer> 
+    
+    <div class="footer-container"> 
+        <div class="footer-section"> 
+            <i class="fa-solid fa-user"></i>
+            <h3>About Me</h3> 
+            <p>I'm a tech-savy individual with a passion for computer science. I enjoy tinkering with gadgets, learning new technological stuffs, and stay up stay up date on the latest AI trends. I'm always looking for ways to improve my skills and apply them to solve  real-world problems</p> 
+        </div>
+         <div class="footer-section">
+            <i class="fa-solid fa-link"></i>
+             <h3>Quick Links</h3> 
+             <ul> 
+                <li><a href="#home">Home</a></li>
+                 <li><a href="#about">About</a></li>
+                  <li><a href="#My Work">Projects</a></li> 
+                  <li><a href="#contact">Contact</a></li> 
+                </ul>
+             </div>
+
+              <div class="footer-section"> 
+                <h3>Follow Me</h3>
+                 <ul> 
+                    <i class="fa-brands fa-linkedin"></i>
+                    <li class="lik"><a href="https://https://www.linkedin.com/in/gidion-mlay-6707b130a/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BwlUwLi5GSyyOaW6U8U2n9A%3D%3D" target="_blank">LinkedIn</a></li>
+                    <i class="fa-brands fa-instagram"></i>
+                    <li class="lik"><a href="https://www.instagram.com/_gidionmlay/#" target="_blank">Instagram</a></li> 
+                    <i class="fa-brands fa-github"></i> 
+                    <li class="lik"><a href="https://github.com/gidionmlay" target="_blank">GitHub</a></li>
+                     </ul>
+                     </div>
+                     <div class="copyright"> 
+                        <p>&copy; 2025 Gidion John Mlay. All rights reserved.</p> </div>
+
+
+
+ 
+
+   
+        
+                        <script>
+                     var tablinks = document.getElementsByClassName("tab-links");
+               var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){  
+            tablinks.classList.remove("active-link");
+     }
+     for(tabcontents of tabcontents){
+        tabcontent.classList. remove("active-tab");
+     }
+       
+     }
+     event.currentTarget.classList.add("active-link");
+     document.getElementById(tabname).classList.add("active-tab")
+
+     <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            let isValid = true;
+
+            // Name validation
+            const nameInput = document.getElementById('name');
+            const nameError = document.getElementById('nameError');
+            if (nameInput.value.trim() === '') {
+                nameError.style.display = 'block';
+                isValid = false;
+            } else {
+                nameError.style.display = 'none';
+            }
+
+            // Email validation
+            const emailInput = document.getElementById('email');
+            const emailError = document.getElementById('emailError');
+            if (!isValidEmail(emailInput.value)) {
+                emailError.style.display = 'block';
+                isValid = false;
+            } else {
+                emailError.style.display = 'none';
+            }
+
+            // Message validation
+            const messageInput = document.getElementById('message');
+            const messageError = document.getElementById('messageError');
+            if (messageInput.value.trim() === '') {
+                messageError.style.display = 'block';
+                isValid = false;
+            } else {
+                messageError.style.display = 'none';
+            }
+
+            if (!isValid) {
+                event.preventDefault(); // Prevent form submission
+            }
+        });
+
+        function isValidEmail(email) {
+            // Basic email validation regex
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            return emailRegex.test(email);
+        }
+    </script>
+
+   </script> 
+   <script>
+         var sidemenu = document.getElementById("sidemenu");
+
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+   </script>
+</body>
+</html>
